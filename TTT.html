@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="stylesample.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .social-icons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            position: relative;
+            text-decoration: none;
+            color: #000;
+            font-size: 2rem;
+            color: #b74b4b;
+        }
+
+        .social-icons a .tooltip {
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #b74b4b;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s, transform 0.3s;
+            transform: translateX(-50%) translateY(10px);
+        }
+
+        .social-icons a:hover .tooltip {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="Index.html" class="logo">Jithya Atluri</a>
+        <nav>
+            <a href="Index.html#home">Home</a>
+            <a href="Index.html#skills">Skills</a>
+            <a href="Index.html#projects" class="active">Projects</a>
+        </nav>
+    </header>
+    <section class="project-details">
+        <br><br><br><br>
+        <h1>Tic-Tac-Toe Game</h1>
+        <p>Basic Tic-Tac-Toe game in Java</p>
+        
+        <h2 style="color: #b74b4b;">Screenshots</h2>
+        <div class="TSS">
+            <img src="TTTH.png" id="T1">
+            <img src="TX.png" id="T2">
+            <br>
+            <img src="TO.png" id="T3">
+            <img src="TTie.png" id="T4">
+        </div>
+        <br>
+        <br>
+        <h2 style="color: #b74b4b; text-align: center;">GitHub Repository for this:</h2>
+        <div class="social-icons">
+            <a id="TP" href="https://github.com/JithyaNiketh/TicTacToe-Python" target="_blank" aria-label="Visit GitHub profile">
+                <i class="fa-brands fa-python"></i>
+                <span class="tooltip">Python</span>
+            </a>
+            <a href="https://github.com/JithyaNiketh/TitTacToe-Java" target="_blank" aria-label="Visit GitHub profile">
+                <i class="fa-brands fa-java"></i>
+                <span class="tooltip">Java</span>
+            </a>
+        </div>
+
+        <div class="navigation-buttons" style="display: flex; align-items: center;">
+            <a href="Pong.html" style="margin-right: auto;"><button class="PrevB" >Previous</button></a>
+            <!-- <a href="TTT.html"><button class="NextB" >Next</button></a> -->
+        </div>
+    </section>
+</body>
+</html>
