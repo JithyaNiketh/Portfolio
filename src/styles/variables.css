@@ -1,0 +1,16 @@
+
+:root {
+  color-scheme: dark;
+
+  --background: #101010;
+  --surface: #171717;
+  --surface-hover: #202020;
+  --border: #292929;
+
+  --text-primary: #f5f5f5;
+  --text-secondary: #999999;
+  --accent: #b6a0ff;
+
+  --sidebar-width: 240px;
+  --section-padding: 80px;
+}

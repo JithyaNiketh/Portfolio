@@ -1,0 +1,24 @@
+
+.section-title {
+  margin-bottom: 40px;
+}
+
+.section-number {
+  color: var(--accent);
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.section-title h2 {
+  margin: 8px 0;
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 500;
+  letter-spacing: -1.5px;
+}
+
+.section-title p {
+  max-width: 600px;
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
